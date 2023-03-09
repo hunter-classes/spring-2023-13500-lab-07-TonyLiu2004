@@ -6,7 +6,7 @@
 
 * GitHub username: tonyliu2004
 
-* Notes:
+* Notes: main.cpp will read the badly structured file "bad.cpp," then print out the fixed file.
 
 
   
