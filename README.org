@@ -6,7 +6,7 @@
 
 * GitHub username: tonyliu2004
 
-* Notes: main.cpp will read the badly structured file "bad.cpp," then output to "fixed.cpp" with the fixed structure.
+* Notes: main.cpp will read the badly structured file "bad.cpp," then create an output file "fixed.cpp" with the fixed structure.
 
 
   
