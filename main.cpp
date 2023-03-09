@@ -7,6 +7,7 @@ int countChar(string line, char c);
 
 int main(){
     ifstream fin("bad.cpp");
+    ofstream ret("fixed.cpp");
     int open_brackets = 0;
     string a;
     while(getline(fin,a)){
@@ -16,14 +17,17 @@ int main(){
             close = true;
             open_brackets -= 1;}
         for(int i = 0 ; i < open_brackets; i++){
-            cout <<"\t";
+            ret <<"\t";
         }
-        cout<<a<<"\n";
+        ret<<a<<"\n";
         open_brackets += countChar(a,'{');
         if(!(close)){
             open_brackets -= countChar(a,'}');
         }
     }
+    fin.close();
+    ret.close();
+    return 0;
 }
 int countChar(string line, char c){
     int i = 0;
