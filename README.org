@@ -1,12 +1,12 @@
 * Spring 2023 - Lab 07
 
-* Last name:
+* Last name: Liu
 
-* First name:
+* First name: Tony
 
-* GitHub username:
+* GitHub username: tonyliu2004
 
-* Notes:
+* Notes: main.cpp will read the badly structured file "bad.cpp," then print out the fixed file.
 
 
   
